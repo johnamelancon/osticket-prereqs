@@ -39,7 +39,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Set Up PHP and MySQL:Create the directory C:\PHP, download and unzip PHP 7.3.8 into this directory, and install MySQL 5.5.62 with the Standard Configuration and the password set to "Password1".
+   - Open File Explorer and navigate to the C drive.
+   - Create a new folder called "PHP" in the C drive.
+   - Download PHP 7.3.8 from the internet and unzip its contents into the "PHP" folder.
+   - Now, download and install MySQL 5.5.62 from the internet.
+   - During installation, choose the "Standard Configuration" and set the password to "Password1."
 </p>
 <br />
 
