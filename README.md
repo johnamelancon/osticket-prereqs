@@ -26,7 +26,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/UKYhc6F.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/HPMYaAI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
      Setting up VM/Installing IIS with Required Features:
@@ -37,7 +37,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
    - Also, check "IIS Management Console."
    - Click "OK" to install these features.
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/zF9DkWs.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
      Setting Up PHP and MySQL:
@@ -50,7 +50,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Ojcl2CJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
      Configuring IIS and PHP:
@@ -62,7 +62,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/GL8cQvb.png="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
      Installing osTicket:
@@ -76,10 +76,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br />
 
 <p>
-<img src="https://i.imgur.com/uHb1XMh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/hu0u4Lc.png"80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-     Setting Up MySQL Database with HeidiSQL:**
+     Setting Up MySQL Database with HeidiSQL:
    - Download and install HeidiSQL from the internet.
    - Open HeidiSQL and create a new session.
    - Use "root" as the username and "Password1" as the password.
@@ -88,13 +88,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br />
 
 <p>
-<img src="https://imgur.com/ljDlOLH" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/aP18sBR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-    Finalizing Installation and Cleanup:
-   - Complete the setup of osTicket in your web browser using the MySQL Database, Username, and Password.
-   - Once installation is complete, browse to the help desk login page at http://localhost/osTicket/scp/login.php.
-   - Delete the setup folder located in C:\inetpub\wwwroot\osTicket to clean up.
-   - Set permissions for ost-config.php file to "Read" only for security purposes.
+  Finalizing Installation and Cleanup: 
+  Complete the setup of osTicket in your web browser using the MySQL Database, Username, and Password. 
+  Once installation is complete, browse to the help desk login page at http://localhost/osTicket/scp/login.php. Delete the setup folder located in C:\inetpub\wwwroot\osTicket to clean up. Set permissions for ost-config.php file to "Read" only for security purposes.
 </p>
 <br />
