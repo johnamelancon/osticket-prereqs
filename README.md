@@ -29,7 +29,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/UKYhc6F.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-  Install IIS with Required Features:** Guide the user through the process of installing IIS on Windows and enabling CGI and Common HTTP Features, along with the IIS Management Console.
+  Install IIS with Required Features: Guide the user through the process of installing IIS on Windows and enabling CGI and Common HTTP Features, along with the IIS Management Console.
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -42,15 +42,15 @@ Set Up PHP and MySQL:Create the directory C:\PHP, download and unzip PHP 7.3.8 i
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
+Configure IIS and PHP:** Detail the steps to register PHP within IIS, enabling required PHP extensions like php_imap.dll, php_intl.dll, and php_opcache.dll, and then reloading IIS to apply the changes.
 <br />
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+*Install osTicket:** Guide the user through the process of downloading osTicket, extracting the "upload" folder to c:\inetpub\wwwroot, renaming it to "osTicket", and ensuring proper permissions are set.
+
 </p>
 <br />
 </p>
@@ -60,7 +60,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/uHb1XMh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Set Up MySQL Database with HeidiSQL:** Explain how to download and install HeidiSQL, create a new session with root/Password1, and create a database called "osTicket".
+
 </p>
 <br />
 
@@ -68,6 +69,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://imgur.com/ljDlOLH" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Finalize Installation and Cleanup:** Describe the final steps, including completing the osTicket setup in the browser with MySQL Database, MySQL Username, and MySQL Password, browsing to the help desk login page (http://localhost/osTicket/scp/login.php), and performing cleanup tasks such as deleting the setup folder in C:\inetpub\wwwroot\osTicket and setting permissions for ost-config.php.
+
 </p>
 <br />
