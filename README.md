@@ -91,10 +91,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://imgur.com/ljDlOLH" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-     Setting Up MySQL Database with HeidiSQL:**
-   - Download and install HeidiSQL from the internet.
-   - Open HeidiSQL and create a new session.
-   - Use "root" as the username and "Password1" as the password.
-   - Create a new database called "osTicket" within HeidiSQL.
+    Finalizing Installation and Cleanup:
+   - Complete the setup of osTicket in your web browser using the MySQL Database, Username, and Password.
+   - Once installation is complete, browse to the help desk login page at http://localhost/osTicket/scp/login.php.
+   - Delete the setup folder located in C:\inetpub\wwwroot\osTicket to clean up.
+   - Set permissions for ost-config.php file to "Read" only for security purposes.
 </p>
 <br />
