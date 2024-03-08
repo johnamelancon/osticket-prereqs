@@ -29,7 +29,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/UKYhc6F.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-  Install IIS with Required Features: Guide the user through the process of installing IIS on Windows and enabling CGI and Common HTTP Features, along with the IIS Management Console.
+ I created a RG in Azure then i created the VM using windows 10 OS. I then copied the public IP address and pasted it in my virtualized platform. Opened the VM and installed IIS with Required Features: Guide the user through the process of installing IIS on Windows and enabling CGI and Common HTTP Features, along with the IIS Management Console.
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
