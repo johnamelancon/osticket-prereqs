@@ -82,7 +82,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
      Setting Up MySQL Database with HeidiSQL:
    - Download and install HeidiSQL from the internet.
    - Open HeidiSQL and create a new session.
-   - Use "root" as the username and "Password1" as the password.
+   - Use "root" as the username and set a password.
    - Create a new database called "osTicket" within HeidiSQL.
 </p>
 <br />
