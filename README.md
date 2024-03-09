@@ -29,7 +29,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/HPMYaAI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-     Setting up VM/Installing IIS with Required Features:
+    1. Setting up VM/Installing IIS with Required Features:
      First create a RG in Azure as the home for VM, next create a VM using windows 10 OS. Then copy the public IP address and paste in your virtualized platform. In addition to that, open the VM and install IIS with Required Features: - Go to your Windows settings and select "Apps" or "Programs."
    - Click on "Turn Windows features on or off."
    - Find "Internet Information Services" and check the box.
@@ -40,7 +40,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/zF9DkWs.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-     Setting Up PHP and MySQL:
+     2. Setting Up PHP and MySQL:
    - Open File Explorer and navigate to the C drive.
    - Create a new folder called "PHP" in the C drive.
    - Download PHP 7.3.8 from the internet and unzip its contents into the "PHP" folder.
@@ -53,7 +53,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/Ojcl2CJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-     Configuring IIS and PHP:
+    3. Configuring IIS and PHP:
    - Open Internet Information Services (IIS) Manager.
    - Find "PHP Manager" and install it.
    - After installation, click on "PHP Manager" and then "Enable or disable an extension."
@@ -65,7 +65,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/GL8cQvb.png="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-     Installing osTicket:
+    4. Installing osTicket:
    - Download osTicket from the internet and extract the downloaded file.
    - Move the extracted "upload" folder to C:\inetpub\wwwroot.
    - Rename the "upload" folder to "osTicket."
@@ -79,7 +79,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/hu0u4Lc.png"80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-     Setting Up MySQL Database with HeidiSQL:
+     5. Setting Up MySQL Database with HeidiSQL:
    - Download and install HeidiSQL from the internet.
    - Open HeidiSQL and create a new session.
    - Use "root" as the username and set a password.
@@ -91,7 +91,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/aP18sBR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-  Finalizing Installation and Cleanup: 
+  6. Finalizing Installation and Cleanup: 
   Complete the setup of osTicket in your web browser using the MySQL Database, Username, and Password. 
   Once installation is complete, browse to the help desk login page at http://localhost/osTicket/scp/login.php. Delete the setup folder located in C:\inetpub\wwwroot\osTicket to clean up. Set permissions for ost-config.php file to "Read" only for security purposes.
 </p>
